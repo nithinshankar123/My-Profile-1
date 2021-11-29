@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container1 {
+    background-color: black;
+    background-size: cover;
+    color: green;
+    height: 110vh;
+}
+
+.h-center {
+    text-align: center;
+}
+
+.para {
+    font-family: "Caveat";
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+.color {
+    color: orange;
+    text-align: center;
+    font-family: "Bree-Serif";
+    text-decoration: underline;
+}
+
+.bg-container {
+    background-color: blue;
+    background-size: cover;
+    height: 120vh;
+}
+
+.image {
+    height: 150px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.button {
+    font-weight: bold;
+    border-width: 0px;
+    background-color: black;
+    color: gold;
+    width: 300px;
+    height: 10vh;
+    margin: 5px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.heading {
+    color: black;
+    text-decoration: underline;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Photo-card-img1 {
+    height: 255px;
+    width: 225px;
+}
+
+.Photo-card-item1 {
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+}

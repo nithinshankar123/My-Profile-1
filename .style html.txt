@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container">
+            <div class="h-center">
+                <h1 class="heading">My Profile</h1>
+                <img src="https://res.cloudinary.com/dft282we4/image/upload/v1638087775/WhatsApp_Image_2021-11-28_at_12.50.58_PM_f92cq5.jpg" class="image" />
+                <div class="text-center">
+                    <button class="button" onclick="display('sectionnext')">My Self</button>
+                    <button class="button" onclick="display('sectionschool')">My Schooling</button>
+                    <button class="button" onclick="display('sectionintrest')">My Intrest</button>
+                    <button class="button" onclick="display('sectionexperiences')">My Experiences</button>
+                    <button class="button" onclick="display('sectiontours')">My Tours</button>
+                    <button class="button" onclick="display('sectionphotos')">My Photos</button>
+                    <button class="button" onclick="display('sectioncontact')">Contact-Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionnext">
+        <div class="bg-container1">
+            <h1 class="color">Myself</h1>
+            <p class="para">Myself Nithin</p>
+            <p class="para">Born On 7th August 2003 In Visakhapatnam</p>
+            <p class="para">Mothers Name: Jhansini Rani</p>
+            <p class="para">Fathers Name: Prasad Roa</p>
+            <p class="para">Brothers Name: Nikil </p>
+            <p class="para">Present Living In Vijayawada</p>
+            <p class="para">Status Bachelor</p>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionschool">
+        <div class="bg-container1">
+            <h1 class="color">My Schooling</h1>
+            <p class="para">Completed LKG To Fifth In Gautham Model School</p>
+            <p class="para">Completed Fifth To Tenth In Sri Vignan Vihar E.M High School</p>
+            <p class="para">Completed Intermediate In Graviity College</p>
+            <p class="para">Now Studying CSE Engeneering In VIT-AP </p>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionintrest">
+        <div class="bg-container1">
+            <h1 class="color">My Intrest</h1>
+            <p class="para">Direction</p>
+            <p class="para">Seeing Movies</p>
+            <p class="para">Playing Shattle</p>
+            <p class="para">Games</p>
+            <p class="para">These Are My Interest Upto Now</p>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionexperiences">
+        <div class="bg-container1">
+            <h1 class="color">My Experiences</h1>
+            <p class="para">HTML Programmer Upto Lists</p>
+            <p class="para">Pythgon Upto Functions</p>
+            <p class="para">C Programming Upto Loops</p>
+            <p class="para">Script Writting</p>
+            <p class="para">CSS Upto Website Layout</p>
+            <p class="para">Bootstrap</p>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiontours">
+        <div class="bg-container1">
+            <h1 class="color">My Tours</h1>
+            <p class="para">Visited Benguluru Temples Which Gives A Nice Experience</p>
+            <p class="para">Visited Tamilnadu, Kerala, AP Temples Also</p>
+            <p class="para">Upto Now Coverd 90% Temples in South-India</p>
+            <p class="para">Kodia Canal, Kanayakumari, Hampi, Puttaparathi Are My Favourite Places</p>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionphotos">
+        <div class="bg-container1">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="Photo-card-item1">
+                    <img src="https://res.cloudinary.com/dft282we4/image/upload/v1638092244/WhatsApp_Image_2021-11-28_at_2.50.31_PM_lgoeo4.jpg" class="Photo-card-img1" />
+                </div>
+                <div class="Photo-card-item1">
+                    <img src="https://res.cloudinary.com/dft282we4/image/upload/v1638092243/22222222_oihgya.jpg" class="Photo-card-img1" />
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="Photo-card-item1">
+                    <img src="https://res.cloudinary.com/dft282we4/image/upload/v1638092243/WhatsApp_Image_2021-11-28_at_2.50.32_PM_uwcazu.jpg" class="Photo-card-img1" />
+                </div>
+                <div class="Photo-card-item1">
+                    <img src="https://res.cloudinary.com/dft282we4/image/upload/v1638092243/WhatsApp_Image_2021-11-28_at_2.50.32_PM_1_b6fx9r.jpg" class="Photo-card-img1" />
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectioncontact">
+        <div class="bg-container1">
+            <h1 class="color">Contact-Details</h1>
+            <p class="para">E-Mail : snithin816@gmail.com</p>
+            <p class="para">Ph no : 9441269409</p>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
